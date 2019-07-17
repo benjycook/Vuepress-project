@@ -29,6 +29,7 @@ fields:
 - type: list
   name: amazonS3_cache
   label: amazonS3_cache
+  hidden: true
 - type: file
   name: image
   label: image
