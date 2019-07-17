@@ -36,3 +36,6 @@ fields:
 - type: list
   name: categories
   label: categories
+- name: home
+  type: boolean
+  label: home
