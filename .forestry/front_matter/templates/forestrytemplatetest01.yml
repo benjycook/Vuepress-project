@@ -17,3 +17,8 @@ fields:
       type: pages
       section: posts
   label: Relevant Campaign posts
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
