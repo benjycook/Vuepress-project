@@ -22,17 +22,6 @@ export default {
                 .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
                 .slice(0,3);
         }
-    },
-    mounted: {
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
     }
 }
 </script>
