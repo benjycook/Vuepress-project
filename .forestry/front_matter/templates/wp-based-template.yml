@@ -1,0 +1,37 @@
+---
+label: WP Based Template
+hide_body: false
+fields:
+- type: number
+  name: id
+  label: id
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: author
+  label: author
+- type: text
+  name: excerpt
+  label: excerpt
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: guid
+  label: guid
+- type: textarea
+  name: permalink
+  label: permalink
+- type: list
+  name: amazonS3_cache
+  label: amazonS3_cache
+- type: file
+  name: image
+  label: image
+- type: list
+  name: categories
+  label: categories
