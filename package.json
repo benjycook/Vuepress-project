@@ -1,7 +1,7 @@
 {
   "name": "vuePress-project",
   "version": "1.0.0",
-  "description": "Single Page Application website that provides free english lessons. The website uses VuePress static site generator and the vue.js framework, developed by Evan You. VuePress is a brand new web development tool that singnificantly enhances and simplifies the SPA workflow. At the same time it provides a first-class user experience by developing an ultra-fast and extremely lightweight SPA website. The website language is Bulgarian.",
+  "description": "Zazim Homepage Test",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yonkov/Vuepress-project.git"
+    "url": "git+https://github.com/benjycook/Vuepress-project.git"
   },
   "keywords": [],
   "author": "",
   "bugs": {
-    "url": "https://github.com/yonkov/Vuepress-project/issues"
+    "url": "https://github.com/benjycook/Vuepress-project/issues"
   },
-  "homepage": "https://github.com/yonkov/Vuepress-project#readme",
+  "homepage": "https://github.com/benjycook/Vuepress-project#readme",
   "devDependencies": {
     "vuepress": "^0.14.8"
   }
