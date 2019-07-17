@@ -1,4 +1,19 @@
 ---
 label: ForestryTemplateTest01
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: relevant_campaign_posts
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: posts
+  label: Relevant Campaign posts
